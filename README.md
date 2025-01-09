@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Dynamic Event Calendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+The **Dynamic Event Calendar** is a web application built with **React.js** that allows users to manage and organize their events in an interactive calendar. The application allows users to view, add, edit, and delete events for specific days in a visually appealing calendar grid. The calendar is fully dynamic, and it provides easy navigation through months and years. The events are stored locally, ensuring that data persists even after the page reloads. 
 
-In the project directory, you can run:
+This project helps users keep track of their important events, appointments, and reminders, offering a clean and intuitive interface.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Interactive Calendar Grid**: View days of the month as clickable grid items, where users can interact with each day to manage events.
+- **Add/Edit/Delete Events**: Users can add new events, edit existing ones, or delete events on specific dates.
+- **Month and Year Navigation**: Use the "Next" and "Previous" buttons to navigate between months, while the calendar automatically adjusts to display the correct number of days.
+- **Event Details**: Events are stored with essential details such as name, start time, end time, and description.
+- **Persistent Event Storage**: Events are saved in the browser’s local storage to ensure they persist across page reloads.
+- **Responsive Design**: The calendar interface is fully responsive, adapting to different screen sizes and devices (desktop and mobile).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React.js**: For building the user interface, managing state, and handling component interactions.
+- **CSS**: To style the application and ensure it is responsive across all devices.
+- **Local Storage**: For persistent storage of events, so data is not lost upon refreshing the page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To get the Dynamic Event Calendar running locally, follow the steps below:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Step 1: Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Step 2: Navigate to the project director
+            cd dynamic-event-calendar
+### Step 3: Install dependencies
+            npm install
+### Step 4: Start the development server
+            npm start
+### Project Link: Preview
+                 https://drive.google.com/file/d/1rbzRsXkpuWhV708nGOW_EhIP1WpAs4ET/view?usp=sharing
